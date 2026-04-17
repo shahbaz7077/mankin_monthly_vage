@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+   
+}
+body{
+    background-image: url(cal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+h1{
+    height: 6rem;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #3a291c;
+}
+.file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.container{
+    height: 100vh;
+    width: 50vw;
+    
+    display: flex;
+    
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+    
+
+    
+
+}
+.box{
+    padding: 1rem;
+
+    
+    border-radius: 1rem;
+     background: rgba(255, 255, 255, 0.5); /* semi-transparent white */
+    backdrop-filter: blur(8px);           /* blur behind */
+    -webkit-backdrop-filter: blur(8px);   /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.btn{
+    padding: 1rem 1.3rem 1rem 1.3rem;
+    background-color: rgba(86, 44, 80, 0.594);
+  border-radius: 2rem;
+}
+
+.data , .results{
+    z-index: 10;
+    background-color: rgba(62, 62, 212, 0.61);
+}
+.newdiv{
+    padding : 2 rem;
+    background-color: rgb(113, 113, 139);
+    color: brown;
+}
+.b{
+    background-color: white;
+    z-index: 2;
+    text-align: center;
+    justify-content: center;
+    width: 50vw;
+}
