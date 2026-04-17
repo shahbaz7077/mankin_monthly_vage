@@ -1,0 +1,1 @@
+# mankin_monthly_vage
